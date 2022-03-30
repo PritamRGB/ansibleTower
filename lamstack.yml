@@ -1,7 +1,7 @@
 ---
 - name: Setting up LAMP Website
-  user: vagrant
-  hosts: testserver
+  user: ansadmin
+  hosts: all
   become: yes
   tasks:
     - name: latest version of all required packages installed
