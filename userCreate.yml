@@ -1,0 +1,8 @@
+---
+- name: this playbook is for Ansible Tower Demo
+  hosts: all
+  become: true
+  tasks:
+  - name: create an user
+    user:
+      name: test3
