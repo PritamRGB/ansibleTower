@@ -1,0 +1,9 @@
+---
+- name: Update content of a file
+  hosts: all
+  become: true
+  tasks:
+  - name: Content Update 
+    copy:
+      dest: /home/ansadmin/new_Directory/new_file.yaml
+      content: "This is updated file"
