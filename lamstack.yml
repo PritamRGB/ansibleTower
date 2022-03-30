@@ -1,6 +1,6 @@
 ---
 - name: Setting up LAMP Website
-  user: ansadmin
+  user: vagrant
   hosts: all
   become: yes
   tasks:
